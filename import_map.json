@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "deno-slack-sdk/": "https://deno.land/x/deno_slack_sdk@2.15.1/",
+    "deno-slack-api/": "https://deno.land/x/deno_slack_api@2.8.0/",
+    "std/": "https://deno.land/std@0.224.0/",
+    "ky": "npm:ky@1.2.4",
+    "@formkit/tempo": "npm:@formkit/tempo@0.1.2",
+    "humanize-duration": "npm:humanize-duration@3.32.2",
+    "@types/humanize-duration": "npm:@types/humanize-duration@3.27.4"
+  }
+}
