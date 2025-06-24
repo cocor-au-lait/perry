@@ -116,12 +116,6 @@ export default SlackFunction(
       ResourceResponse[]
     >();
 
-    console.log(
-      "🍎 Response of accessible resources",
-      `(Status: ${resourceResponseResponse.status}, Status Text: ${resourceResponseResponse.statusText})`,
-      JSON.stringify(resourceResponse, null, 2),
-    );
-
     const resource = resourceResponse
       .map(({ id, name, avatarUrl }) => ({
         id,
